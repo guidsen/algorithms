@@ -1,3 +1,7 @@
+// The Bellman-Ford algorithm is an algorithm that computes shortest paths
+// from a single source vertex in a weighted directional graph.
+// More information at https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm
+
 const calculatePath = (graph, source) => {
   // Calculating the vertices we need to traverse
   const vertices = graph.reduce((acc, node) => {
@@ -60,9 +64,7 @@ const graph = [
 
 const calculatedPath = calculatePath(graph, graph[0]);
 
-console.log(calculatedPath);
-
-// Outputs:
+// `calculatedPath` outputs:
 // {
 //   A: 4,
 //   B: 4,
