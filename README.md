@@ -6,6 +6,7 @@ In this repository I collect all the algorithms I've practiced to be able to sha
 ---
 
 Currently planned algorithms to learn:
+
 **Shortest Path:**
 - [x] [Bellman-Ford](https://github.com/guidsen/algorithms/blob/master/bellman-ford.js)
 - [ ] Dijkstra
